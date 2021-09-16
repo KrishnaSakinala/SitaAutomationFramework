@@ -33,6 +33,6 @@ public class AdminFunctionalityTest extends BaseTest {
     public void testToShowFailure () {
         extentTest = extentReports.createTest("testToShowFailure");
 
-        Assert.assertEquals(driver.getTitle(), "Title");
+        Assert.assertEquals(driver.getTitle(), "LazyCoder || sumit");
     }
 }
